@@ -1,6 +1,98 @@
-h2{
-    color: blue;
+body{
+    background-color: rgba(57, 60, 68, 0.479);
 }
-table{
-    color: blue;
+/* da ze ky ma home page first table css krl de */
+#table{
+    border-color: rgb(46, 43, 43);
+    background-color: rgb(75, 67, 67);
+    color: black;
+    
+}
+#table tr th h3{
+color: rgb(255, 255, 255);
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+#table tr :hover {
+    background-color: rgb(0, 88, 104);
+    
+}
+#secondtable tr :hover {
+    background-color: blue;
+
+}
+#secondtable tr th h3{
+    background-color: rgb(53, 175, 175);
+}
+/* 2 . about css da ze na start dy */
+#abouttable tr th h3{
+    color: rgb(255, 255, 255);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    }
+#abouttable{
+    border-color: rgb(46, 43, 43);
+    background-color: rgb(75, 67, 67);
+    color: black;
+}
+#abouttable tr :hover{
+    background-color:rgb(0, 88, 104);
+
+}
+/*3 project da zeee na start dee */
+#protable tr th h3{
+    color: rgb(255, 255, 255);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+#protable{
+    border-color: rgb(46, 43, 43);
+    background-color: rgb(75, 67, 67);
+    color: black;
+}
+#protable tr :hover{
+    background-color:rgb(0, 88, 104);
+}
+
+/* 4. skill css da ze na  */
+#skilltable tr th h3{
+    color: rgb(255, 255, 255);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+#skilltable{
+    border-color: rgb(46, 43, 43);
+    background-color: rgb(75, 67, 67);
+    color: black;
+}
+#skilltable tr :hover{
+    background-color:rgb(0, 88, 104);
+}
+
+/* 5 ,register css  */
+#regtable tr th h3{
+    color: rgb(255, 255, 255);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+#regtable{
+    order-color: rgb(46, 43, 43);
+    background-color: rgb(75, 67, 67);
+    color: black;
+}
+#regtable tr :hover{
+    background-color:rgb(0, 88, 104);
 }
